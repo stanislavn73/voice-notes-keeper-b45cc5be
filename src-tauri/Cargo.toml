@@ -1,0 +1,19 @@
+
+[package]
+name = "voice-notes-keeper"
+version = "0.1.0"
+description = "A voice notes recording and management app"
+authors = ["Lovable"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+tauri = { version = "1.5", features = ["fs-all", "path-all", "dialog-all", "window-all"] }
+tauri-plugin-sql = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

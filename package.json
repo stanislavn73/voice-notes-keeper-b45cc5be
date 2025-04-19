@@ -11,7 +11,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "file:latest@emotion/styled@latest@mui/material@latest@mui/icons-material@latest",
     "@hookform/resolvers": "^3.9.0",
+    "@mui/material": "file:latest@mui/icons-material@latestreact-h5-audio-player@latest@tauri-apps/api@latest@tauri-apps/plugin-sql-api@latest",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
     "@radix-ui/react-aspect-ratio": "^1.1.0",
@@ -40,6 +42,8 @@
     "@radix-ui/react-toggle-group": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.4",
     "@tanstack/react-query": "^5.56.2",
+    "@tauri-apps/api": "^2.5.0",
+    "@tauri-apps/cli": "^2.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
